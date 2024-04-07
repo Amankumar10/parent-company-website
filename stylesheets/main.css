@@ -1,0 +1,164 @@
+.main-container{
+    max-width: 1440px;
+    margin:0 auto;
+    
+}
+
+.announcements{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245 197 151);
+    margin-bottom: 20px;
+}
+
+
+.announcements span{
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+    max-width: 60%;
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.7rem;
+    font-weight: 500;
+}
+
+.image{
+    width:50%;
+    height: 100%;
+}
+.image .img{
+    width:500%;
+    height: 100%;
+}
+
+
+.left-right-section{
+    display: flex;
+    margin-bottom: 10px;
+}
+.text{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1:hover{
+    
+    color: black;
+}
+.text h1{
+    margin-bottom:24px;
+    color: #ca780e;
+    
+}
+.text .cta{
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
+}
+
+.text.cta:hover{
+    padding: 7px 28px;
+    background-color: rgb(246, 248, 229);
+}
+
+.image.l{
+    height:auto;
+    width:50%;
+    border-bottom-style: groove;
+
+}
+
+.chill .image{
+    margin-left: 73px;
+    
+}
+.chill .text{
+    background-color: #f5d1a2;
+    width: 760px;
+}
+
+.rewards .text{
+    background-color: #f5d1a2;
+    height: 410px;
+    
+}
+
+section{
+    display: flex;
+}
+
+.top-bottom-section{
+    width: 50%;
+}
+.section-container{
+    display: flex;
+    flex-direction: column;
+}
+.top-bottom-section .image{
+    width: 100%;
+}
+
+.top-bottom-section .image img{
+    width: 1233px;
+    height: 509px;
+}
+
+.top-bottom-section .text{
+    display: flex;
+    flex-direction: column;
+}
+.cta-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bottom-section:first-child .section-container{
+    margin-right: 16px;
+}
+
+.top-bottom-section:last-child .section-container{
+    margin-left: 16px;
+}
+
+.top-bottom-section .text {
+    background-color: rgb(253, 220, 182);
+    padding-left: 24px;
+    padding-bottom: 32px;
+    padding-right: 24px;
+    padding-top: 16px;
+    color: rgb(87, 53, 11);
+}
+
+
+.top-bottom-section .image img {
+   
+
+
+
+    width: 1347px;
+}
+
+.top-bottom-section .text h1{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+
+.top-bottom-section .text h3{
+    font-size: 19px;
+    line-height: 1.75;
+}
+
+.top-bottom-section {
+    display: flex;
+    margin-bottom: 32px;
+}
